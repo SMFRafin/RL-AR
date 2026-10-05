@@ -31,7 +31,6 @@ summary/                     # cross-config tables and figures used in the paper
    Llama checkpoints are gated: set an `HF_TOKEN` with access.
    To reuse our cached generations instead of regenerating, copy `data/` and `runs/` into `OUT_ROOT`
    (decompress the `.gz` files first) and the notebook skips every finished stage.
-2. Run `02_summary.ipynb`, then `03_revision_followup.ipynb`.
 
 Corpus embeddings (`corpus_emb.npy`) are not included because they exceed GitHub's file size limit;
 the notebook rebuilds them deterministically in a few minutes.
