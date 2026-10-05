@@ -9,8 +9,6 @@ from retrieval-score and query features before any LLM call.
 ~~~
 notebooks/
   rl_ar_unified.ipynb        # full pipeline for one (model, dataset) config; edit the CONFIG cell only
-  02_summary.ipynb           # aggregates all 10 configs into the paper tables and figures
-  03_revision_followup.ipynb # lambda-sweep frontier, matched budgets, transfer, decision profile
 data/
   pins.json                  # pinned Hugging Face revisions of every model and dataset
   {nq,squad}/splits.json     # exact train/val/test question IDs (article-grouped, seed 2026)
