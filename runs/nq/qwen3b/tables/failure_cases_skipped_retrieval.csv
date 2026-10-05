@@ -1,0 +1,4 @@
+question,gold,chosen_k,ans_k0,ans_k1,ans_k2,ans_k3,f1_k0,f1_k1,f1_k2,f1_k3
+the type of reproduction that requires the union of sperm and egg,Human fertilization,0,Sexual reproduction,Pseudogamy,Pseudogamy and fertilization,Pseudogamy and human fertilization,0.0,0.0,0.4,0.67
+the voting rights act of 1965 was an effort to ensure voting rights for,racial minorities,0,African Americans,racial minorities,racial minorities,racial minorities,0.0,1.0,1.0,1.0
+a polygon with all sides the same length is said to be,equilateral,0,Regular,equilateral polygon,equilateral polygon,equilateral,0.0,0.67,0.67,1.0

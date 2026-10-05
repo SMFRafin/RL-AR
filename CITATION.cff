@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "RL-AR: Reinforcement Learning-Based Adaptive Retrieval for Efficient Retrieval-Augmented Generation"
+authors:
+  - family-names: Fayaz
+    given-names: Syed Muntasin
+  - family-names: Shamrat
+    given-names: F M Javed Mehedi
+  - family-names: Far
+    given-names: Arman
+  - family-names: Raihan
+    given-names: Md. Abu
+  - family-names: Ali
+    given-names: Md. Asraf
+  - family-names: Mohamed
+    given-names: Reem E.
+version: 1.0.0
+date-released: 2026-10-05

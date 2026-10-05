@@ -1,0 +1,10 @@
+,mean_ms,median_ms
+t_embed,12.7,12.5
+t_search,16.3,15.7
+t_flare_embed,11.2,11.1
+t_flare_search,15.8,15.7
+t_flare_gen,1095.9,996.0
+t_gen_0,537.0,469.0
+t_gen_1,854.6,779.4
+t_gen_2,1113.0,997.9
+t_gen_3,1341.3,1251.1

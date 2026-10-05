@@ -1,0 +1,12 @@
+{
+ "squad_revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+ "n_pool": 87599,
+ "n_passages": 31094,
+ "data_seed": 2026,
+ "sizes": {
+  "train": 2000,
+  "val": 400,
+  "test": 600
+ },
+ "passage_words": 100
+}

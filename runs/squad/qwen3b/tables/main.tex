@@ -1,0 +1,25 @@
+\begin{table}
+\caption{SQUAD, qwen3b: quality and end-to-end cost (mean $\pm$ SD over seeds).}
+\begin{tabular}{lllrll}
+\toprule
+ & f1 & em & k & total_tokens & latency_ms \\
+Method &  &  &  &  &  \\
+\midrule
+Static k=0 & 0.143 $\pm$ 0.000 & 0.063 $\pm$ 0.000 & 0.000 & 62 $\pm$ 0 & 259 $\pm$ 0 \\
+Static k=1 & 0.385 $\pm$ 0.000 & 0.280 $\pm$ 0.000 & 1.000 & 180 $\pm$ 0 & 305 $\pm$ 0 \\
+Static k=2 & 0.444 $\pm$ 0.000 & 0.323 $\pm$ 0.000 & 2.000 & 285 $\pm$ 0 & 356 $\pm$ 0 \\
+Static k=3 & 0.497 $\pm$ 0.000 & 0.357 $\pm$ 0.000 & 3.000 & 390 $\pm$ 0 & 406 $\pm$ 0 \\
+Static (val-best F1) & 0.497 $\pm$ 0.000 & 0.357 $\pm$ 0.000 & 3.000 & 390 $\pm$ 0 & 406 $\pm$ 0 \\
+Static (val-best reward) & 0.444 $\pm$ 0.000 & 0.323 $\pm$ 0.000 & 2.000 & 285 $\pm$ 0 & 356 $\pm$ 0 \\
+Random & 0.364 $\pm$ 0.012 & 0.254 $\pm$ 0.009 & 1.490 & 228 $\pm$ 8 & 330 $\pm$ 9 \\
+Uncertainty threshold & 0.442 $\pm$ 0.000 & 0.322 $\pm$ 0.000 & 1.993 & 345 $\pm$ 0 & 613 $\pm$ 0 \\
+FLARE (short-form) & 0.486 $\pm$ 0.000 & 0.363 $\pm$ 0.000 & 1.907 & 345 $\pm$ 0 & 598 $\pm$ 0 \\
+SKR-kNN & 0.302 $\pm$ 0.000 & 0.197 $\pm$ 0.000 & 0.910 & 167 $\pm$ 0 & 315 $\pm$ 0 \\
+Supervised k-predictor & 0.335 $\pm$ 0.006 & 0.235 $\pm$ 0.006 & 0.597 & 168 $\pm$ 7 & 449 $\pm$ 8 \\
+REINFORCE (bandit) & 0.462 $\pm$ 0.015 & 0.334 $\pm$ 0.010 & 2.282 & 377 $\pm$ 22 & 627 $\pm$ 10 \\
+RL-AR (PPO, bandit) & 0.455 $\pm$ 0.010 & 0.333 $\pm$ 0.008 & 2.098 & 357 $\pm$ 6 & 619 $\pm$ 5 \\
+RL-AR w/o draft (ret+query) & 0.466 $\pm$ 0.024 & 0.339 $\pm$ 0.018 & 2.297 & 316 $\pm$ 32 & 371 $\pm$ 15 \\
+Oracle (upper bound) & 0.566 $\pm$ 0.000 & 0.418 $\pm$ 0.000 & 0.893 & 168 $\pm$ 0 & 306 $\pm$ 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

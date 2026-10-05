@@ -1,0 +1,13 @@
+{
+ "nq_revision": "37a7d5bb286c76f1b406d76a7434e8eeb4385203",
+ "nq_file": "nq-dev.jsonl.gz",
+ "n_pool": 6489,
+ "n_passages": 102332,
+ "data_seed": 2026,
+ "sizes": {
+  "train": 2000,
+  "val": 400,
+  "test": 600
+ },
+ "passage_words": 100
+}

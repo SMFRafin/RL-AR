@@ -1,0 +1,5 @@
+question,gold,chosen_k,ans_k0,ans_k1,ans_k2,ans_k3,f1_k0,f1_k1,f1_k2,f1_k3
+Who became the second Karmapa Lama?,Karma Pakshi,0,Shakya Chogden,Rangjung Dorje,The fifth Karmapa,Karma Pakshi,0.0,0.0,0.0,1.0
+Who did Kuruma negotiate with?,opposition parties,0,The United States government,Gamal Abdel Nasser,He negotiated with Draža Mihailović,Opposition parties,0.0,0.0,0.0,1.0
+Who was promoted from waiter to Munshi?,Abdul Karim,0,I cannot verify that information,There is no information,Abdul Karim,Abdul Karim,0.0,0.0,1.0,1.0
+What drink was never rationed?,beer,0,Tea,Beer was never rationed,Beer,Beer,0.0,0.4,1.0,1.0

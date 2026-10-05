@@ -1,0 +1,22 @@
+{
+ "precompute_generation": {
+  "wall_s": 2645.7076194286346,
+  "new_generations": 15000,
+  "peak_gpu_mb": 8067.552734375
+ },
+ "latency_profiling": {
+  "wall_s": 553.1559009552002
+ },
+ "policies_main": {
+  "wall_s": 177.366774559021
+ },
+ "ablations": {
+  "wall_s": 945.9453020095825
+ },
+ "frontier": {
+  "wall_s": 669.8150546550751
+ },
+ "selfrag": {
+  "wall_s": 1306.8641726970673
+ }
+}

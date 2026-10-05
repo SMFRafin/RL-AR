@@ -1,0 +1,9 @@
+question,gold,chosen_k,ans_k0,ans_k1,ans_k2,ans_k3,f1_k0,f1_k1,f1_k2,f1_k3
+when did ben rectors new album come out,June 2018,0,No information available,"June 22, 2018","June 22, 2018","June 22, 2018",0.0,0.8,0.8,0.8
+the type of reproduction that requires the union of sperm and egg,Human fertilization,0,Sexual reproduction,Parthenogenesis,Human fertilization,Human fertilization,0.0,0.0,1.0,1.0
+the voting rights act of 1965 was an effort to ensure voting rights for,racial minorities,0,African American citizens,racial minorities throughout the country,racial minorities throughout the country,racial minorities nationwide,0.0,0.67,0.67,0.8
+what year did gnomeo and juliet come out,2011,0,2010,2011,2011,2011,0.0,1.0,1.0,1.0
+who wrote the theory and practice of oligarchical collectivism,Emmanuel Goldstein,0,George Orwell,George Orwell,Emmanuel Goldstein,Emmanuel Goldstein,0.0,0.0,1.0,1.0
+family guy episode where peter gets a vasectomy,Sibling Rivalry,0,Petarded,Sibling Rivalry,Sibling Rivalry,Sibling Rivalry,0.0,1.0,1.0,1.0
+who wants to be a millionaire british host,Jeremy Clarkson,0,Chris Tarrant,Chris Tarrant,Jeremy Clarkson,Jeremy Clarkson,0.0,0.0,1.0,1.0
+who does the voice of diane on family guy,Lori Alan,0,Alex Borstein,Lori Alan,Lori Alan,Lori Alan,0.0,1.0,1.0,1.0

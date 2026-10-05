@@ -1,0 +1,4 @@
+question,gold,chosen_k,ans_k0,ans_k1,ans_k2,ans_k3,f1_k0,f1_k1,f1_k2,f1_k3
+the type of reproduction that requires the union of sperm and egg,Human fertilization,0,Ovulation,Pseudogamy,Human fertilization,Human fertilization,0.0,0.0,1.0,1.0
+volleyball became an official sport in the summer olympics in this year,1964,0,2024,1964,1996,1996,0.0,1.0,0.0,0.0
+who developed an effective method for measuring attachment,Mary Ainsworth,0,John Bowlby,Mary Ainsworth,Mary Ainsworth,Mary Ainsworth,0.0,1.0,1.0,1.0

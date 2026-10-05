@@ -1,0 +1,13 @@
+transformers>=4.45
+accelerate
+bitsandbytes
+sentence-transformers
+faiss-cpu
+datasets
+huggingface_hub
+torch
+numpy
+pandas
+scipy
+matplotlib
+tqdm

@@ -1,0 +1,9 @@
+question,gold,chosen_k,ans_k0,ans_k1,ans_k2,ans_k3,f1_k0,f1_k1,f1_k2,f1_k3
+who sings mack the knife with frank sinatra,Quincy Jones,0,Bobby Darin,Frank Sinatra and Quincy Jones,Frank Sinatra and Bobby Darin,Bobby Darin,0.0,0.57,0.0,0.0
+where does most star formation take place in the milky way,the disk | the spiral arms,0,Galactic plane,In the disk,Spiral disk,Disk (especially spiral arms),0.0,0.67,0.67,0.67
+where does the tv show this is us take place,New Jersey | New York City | Los Angeles,0,Pennsylvania,"Pittsburgh, where the Big Three are born and raised. (Also other locations and time periods.)",Los Angeles (primarily),"Pittsburgh, Los Angeles, New Jersey (various time periods)",0.0,0.13,0.8,0.4
+what grade is matt saracen in in season 1,sophomore,0,Freshman,Sophomore,Sophomore (in the Pilot),Sophomore,0.0,1.0,0.5,1.0
+where was the man with the golden arm filmed,RKO Studios in Hollywood,0,Chicago,RKO Studios in Hollywood,RKO Studios in Hollywood,"Hollywood, September 26 through November 4, 1955 (at RKO Studios)",0.0,1.0,1.0,0.43
+who wants to be a millionaire british host,Jeremy Clarkson,0,Chris Tarrant,"Jeremy Clarkson, Chris Tarrant (original), or Cecile Frot-Coutaz (original UK version)",Jeremy Clarkson,Jeremy Clarkson,0.0,0.31,1.0,1.0
+who 's the only team that beat the eagles,Dallas Cowboys | Seattle Seahawks | Kansas City Chiefs,0,Patriots,Seattle Seahawks,Seattle Seahawks,Washington Redskins (in 2017 season),0.0,1.0,1.0,0.0
+who won season two of hell 's kitchen,Sous chef Heather West,0,Gordon Ramsay,Virginia Dalbeck and Heather West (were the finalists). No winner is specified for season 2,Heather West,Heather West,0.0,0.22,0.67,0.67
