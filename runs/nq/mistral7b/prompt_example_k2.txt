@@ -1,0 +1,10 @@
+<s>[INST] You are a question answering assistant. Answer with the shortest possible span (at most 5 words). Output only the answer, with no explanation.
+
+Use the documents if they are helpful.
+
+Documents:
+[1] Major League Baseball: Major League Baseball Major League Baseball (MLB) is a professional baseball organization, the oldest of the four major professional sports leagues in the United States and Canada. A total of 30 teams play in the National League (NL) and American League (AL), with 15 teams in each league. The NL and AL were formed as separate legal entities in 1876 and 1901 respectively. After cooperating but remaining legally separate entities beginning in 1903, the leagues merged into a single organization led by the Commissioner of Baseball in 2000. The organization also oversees Minor League Baseball, which comprises 256 teams affiliated
+
+[2] Major League Baseball: on ESPN Australia (subscription). In the Middle East & North Africa, MLB games are broadcast on beIN Sports channels. Major League Baseball Major League Baseball (MLB) is a professional baseball organization, the oldest of the four major professional sports leagues in the United States and Canada. A total of 30 teams play in the National League (NL) and American League (AL), with 15 teams in each league. The NL and AL were formed as separate legal entities in 1876 and 1901 respectively. After cooperating but remaining legally separate entities beginning in 1903, the leagues merged into a single organization led
+
+Question: how many teams are in the mlb national league[/INST]

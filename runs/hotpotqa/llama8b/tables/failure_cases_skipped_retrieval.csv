@@ -1,0 +1,6 @@
+question,gold,chosen_k,ans_k0,ans_k1,ans_k2,ans_k3,f1_k0,f1_k1,f1_k2,f1_k3
+What South Korean girl group formed by S.M. Entertainment recorded the Korean language song Lion Heart?,Girls' Generation,0,Red Velvet,Girls' Generation,Girls' Generation,Girls' Generation,0.0,1.0,1.0,1.0
+Which City in the Miami metropolitan area is home to the Primetime Race Group?,"Hollywood, Florida",0,Homestead,"Hollywood, Florida","Hollywood, Florida","Hollywood, Florida",0.0,1.0,1.0,1.0
+The scunthorpe telegraph and the Grimsby Telegraph used to service Scunthorpe which is in what country?,England,0,United Kingdom,England,England,England,0.0,1.0,1.0,1.0
+"Which  baseball team who represents Texas Tech University in NCAA Division I college baseball is  ""The Law"" its home stadium",Texas Tech Red Raiders baseball,0,Dan Law Field,Texas Tech Red Raiders,Texas Tech Red Raiders,Texas Tech Red Raiders,0.0,0.89,0.89,0.89
+"Geoffrey Rush, one of the stars in Intolerable Cruelty, is a known actor and film producer in what country?",Australian actor and film producer,0,Australia,Australia,Australian actor,Australian,0.0,0.0,0.57,0.33

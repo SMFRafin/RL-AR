@@ -1,0 +1,11 @@
+question,gold,chosen_k,ans_k0,ans_k1,ans_k2,ans_k3,f1_k0,f1_k1,f1_k2,f1_k3
+Who is older Carrie Akre or Shifty Shellshock?,Carrie Akre,0,Shifty Shellshock is older,Carrie Akre older,Shifty Shellshock is older,Shifty Shellshock is older,0.0,0.8,0.0,0.0
+"Who was born first, Krzysztof Zanussi or Thom Andersen?",Krzysztof Zanussi,0,Thom Andersen was born first,Thom Andersen was born first,Thom Andersen was born first,Krzysztof Zanussi was born first,0.0,0.0,0.0,0.57
+"What golf course, located in Fulton County, Georgia, saw Keegan Bradley win a championship?",Highlands Course,0,East Lake Golf Club,Atlanta Athletic Club (Highlands Course),Atlanta Athletic Club,Atlanta Athletic Club,0.0,0.57,0.0,0.0
+Is Muskegon County Airport or John Wayne Airport further west?,John Wayne Airport,0,Muskegon County is further west,John Wayne Airport is further west,John Wayne Airport is further west,John Wayne Airport is further west,0.0,0.67,0.67,0.67
+"Luisa Miller is an opera with three acts, whereas Don Quichotte is an opera with how many acts?",five,0,Four acts,Don Quichotte is an opera with four acts,Five acts,Five acts,0.0,0.0,0.67,0.67
+Bure Family Wines is named after former ice hockey player?,"Valeri Vladimirovich ""Val"" Bure",0,Teemu Selänne,"No, Bure Family Wines is not named after a former ice hockey player","Yes, Valeri Bure","Yes, Valeri Bure",0.0,0.12,0.57,0.57
+Fort Snelling spurred growth of Saint Paul was located in this county?,Hennepin County,0,Ramsey,Hennepin,Ramsey County,Ramsey County,0.0,0.67,0.5,0.5
+whiich Australian racing driver won the 44-lap race for the Red Bull Racing team?,Daniel Ricciardo,0,Max Verstappen,Daniel Ricciardo,Daniel Ricciardo (2016 Malaysian Grand Prix),Daniel Ricciardo won the 44-lap race for Red Bull Racing,0.0,1.0,0.5,0.36
+Knockout song was from which album of Lil Wayne on Cash Money Records ?,Rebirth,0,Tha Carter II,"Rebirth"" is the album",Rebirth,"Rebirth"" (album)",0.0,0.5,1.0,0.67
+Nochnye Snaipery was founded by Svetlana Surganova and a female who is an Honored Artist of where?,the Chechen Republic,0,Russia,Russia,Russia,Chechen Republic,0.0,0.0,0.0,1.0

@@ -1,0 +1,25 @@
+\begin{table}
+\caption{SQUAD, llama8b: quality and end-to-end cost (mean $\pm$ SD over seeds).}
+\begin{tabular}{lllrll}
+\toprule
+ & f1 & em & k & total_tokens & latency_ms \\
+Method &  &  &  &  &  \\
+\midrule
+Static k=0 & 0.185 $\pm$ 0.000 & 0.055 $\pm$ 0.000 & 0.000 & 86 $\pm$ 0 & 600 $\pm$ 0 \\
+Static k=1 & 0.406 $\pm$ 0.000 & 0.248 $\pm$ 0.000 & 1.000 & 200 $\pm$ 0 & 738 $\pm$ 0 \\
+Static k=2 & 0.458 $\pm$ 0.000 & 0.280 $\pm$ 0.000 & 2.000 & 301 $\pm$ 0 & 884 $\pm$ 0 \\
+Static k=3 & 0.493 $\pm$ 0.000 & 0.298 $\pm$ 0.000 & 3.000 & 403 $\pm$ 0 & 988 $\pm$ 0 \\
+Static (val-best F1) & 0.493 $\pm$ 0.000 & 0.298 $\pm$ 0.000 & 3.000 & 403 $\pm$ 0 & 988 $\pm$ 0 \\
+Static (val-best reward) & 0.458 $\pm$ 0.000 & 0.280 $\pm$ 0.000 & 2.000 & 301 $\pm$ 0 & 884 $\pm$ 0 \\
+Random & 0.383 $\pm$ 0.011 & 0.218 $\pm$ 0.010 & 1.490 & 246 $\pm$ 7 & 801 $\pm$ 18 \\
+Uncertainty threshold & 0.458 $\pm$ 0.000 & 0.280 $\pm$ 0.000 & 1.970 & 382 $\pm$ 0 & 1473 $\pm$ 0 \\
+FLARE (short-form) & 0.486 $\pm$ 0.000 & 0.287 $\pm$ 0.000 & 1.970 & 391 $\pm$ 0 & 1470 $\pm$ 0 \\
+SKR-kNN & 0.330 $\pm$ 0.000 & 0.170 $\pm$ 0.000 & 1.017 & 198 $\pm$ 0 & 740 $\pm$ 0 \\
+Supervised k-predictor & 0.387 $\pm$ 0.007 & 0.219 $\pm$ 0.006 & 0.602 & 204 $\pm$ 9 & 1037 $\pm$ 17 \\
+REINFORCE (bandit) & 0.486 $\pm$ 0.012 & 0.296 $\pm$ 0.008 & 2.621 & 450 $\pm$ 19 & 1544 $\pm$ 19 \\
+RL-AR (PPO, bandit) & 0.484 $\pm$ 0.010 & 0.299 $\pm$ 0.005 & 2.283 & 414 $\pm$ 14 & 1484 $\pm$ 13 \\
+RL-AR w/o draft (ret+query) & 0.475 $\pm$ 0.015 & 0.290 $\pm$ 0.009 & 2.288 & 330 $\pm$ 24 & 909 $\pm$ 23 \\
+Oracle (upper bound) & 0.578 $\pm$ 0.000 & 0.363 $\pm$ 0.000 & 0.877 & 186 $\pm$ 0 & 719 $\pm$ 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

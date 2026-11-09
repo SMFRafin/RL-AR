@@ -1,0 +1,25 @@
+\begin{table}
+\caption{SQUAD, mistral7b: quality and end-to-end cost (mean $\pm$ SD over seeds).}
+\begin{tabular}{lllrll}
+\toprule
+ & f1 & em & k & total_tokens & latency_ms \\
+Method &  &  &  &  &  \\
+\midrule
+Static k=0 & 0.166 $\pm$ 0.000 & 0.058 $\pm$ 0.000 & 0.000 & 59 $\pm$ 0 & 550 $\pm$ 0 \\
+Static k=1 & 0.396 $\pm$ 0.000 & 0.255 $\pm$ 0.000 & 1.000 & 194 $\pm$ 0 & 860 $\pm$ 0 \\
+Static k=2 & 0.437 $\pm$ 0.000 & 0.275 $\pm$ 0.000 & 2.000 & 311 $\pm$ 0 & 1052 $\pm$ 0 \\
+Static k=3 & 0.476 $\pm$ 0.000 & 0.302 $\pm$ 0.000 & 3.000 & 429 $\pm$ 0 & 1189 $\pm$ 0 \\
+Static (val-best F1) & 0.476 $\pm$ 0.000 & 0.302 $\pm$ 0.000 & 3.000 & 429 $\pm$ 0 & 1189 $\pm$ 0 \\
+Static (val-best reward) & 0.437 $\pm$ 0.000 & 0.275 $\pm$ 0.000 & 2.000 & 311 $\pm$ 0 & 1052 $\pm$ 0 \\
+Random & 0.369 $\pm$ 0.016 & 0.225 $\pm$ 0.009 & 1.490 & 247 $\pm$ 9 & 900 $\pm$ 31 \\
+Uncertainty threshold & 0.427 $\pm$ 0.000 & 0.267 $\pm$ 0.000 & 1.937 & 359 $\pm$ 0 & 1570 $\pm$ 0 \\
+FLARE (short-form) & 0.469 $\pm$ 0.000 & 0.318 $\pm$ 0.000 & 1.773 & 341 $\pm$ 0 & 1475 $\pm$ 0 \\
+SKR-kNN & 0.295 $\pm$ 0.000 & 0.162 $\pm$ 0.000 & 0.923 & 178 $\pm$ 0 & 782 $\pm$ 0 \\
+Supervised k-predictor & 0.344 $\pm$ 0.009 & 0.216 $\pm$ 0.007 & 0.534 & 161 $\pm$ 15 & 1015 $\pm$ 58 \\
+REINFORCE (bandit) & 0.451 $\pm$ 0.018 & 0.287 $\pm$ 0.016 & 2.332 & 409 $\pm$ 39 & 1652 $\pm$ 52 \\
+RL-AR (PPO, bandit) & 0.459 $\pm$ 0.004 & 0.298 $\pm$ 0.007 & 2.155 & 385 $\pm$ 13 & 1604 $\pm$ 27 \\
+RL-AR w/o draft (ret+query) & 0.456 $\pm$ 0.006 & 0.296 $\pm$ 0.004 & 2.300 & 345 $\pm$ 13 & 1079 $\pm$ 24 \\
+Oracle (upper bound) & 0.556 $\pm$ 0.000 & 0.368 $\pm$ 0.000 & 0.895 & 179 $\pm$ 0 & 748 $\pm$ 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

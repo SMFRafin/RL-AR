@@ -1,0 +1,8 @@
+question,gold,chosen_k,ans_k0,ans_k1,ans_k2,ans_k3,f1_k0,f1_k1,f1_k2,f1_k3
+whiich Australian racing driver won the 44-lap race for the Red Bull Racing team?,Daniel Ricciardo,0,Max Verstappen,Daniel Ricciardo,Daniel Ricciardo,Daniel Ricciardo,0.0,1.0,1.0,1.0
+Are Danie Visser and Oliver Marach both Grand Slam tennis tournament winners at doubles?,no,0,Yes,No,No,Yes,0.0,1.0,1.0,0.0
+What's the common ingredient to a Gimlet and Pink Gin?,Plymouth Gin,0,Bitters,Lemon rind,Gin,Juniper berries,0.0,0.0,0.67,0.0
+Are Grant Nicholas and Danny Shirley both American singers?,no,0,Yes,No,No,No,0.0,1.0,1.0,1.0
+Are both The Sundays and The Radio Dept. dream pop bands?,no,0,Yes,No,No,No,0.0,1.0,1.0,1.0
+Are 13 Engines and Oingo Boingo both new wave bands?,no,0,Yes,No,"No, they are not","No, they are not",0.0,1.0,0.4,0.4
+Are Xinxiang and Qionglai City both county-level cities?,no,0,Yes,"No, both are prefecture-level cities",No,"No, Xinxiang is a prefecture-level city",0.0,0.33,1.0,0.33

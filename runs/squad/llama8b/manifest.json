@@ -1,0 +1,141 @@
+{
+ "model_key": "llama8b",
+ "model_repo": "meta-llama/Llama-3.1-8B-Instruct",
+ "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+ "quantization": "bitsandbytes NF4, double quant, fp16 compute",
+ "embedder": "BAAI/bge-small-en-v1.5",
+ "embedder_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+ "embed_dim": 384,
+ "faiss_index": "IndexFlatIP over L2-normalised embeddings (exact cosine)",
+ "query_prefix": "Represent this sentence for searching relevant passages: ",
+ "dataset": "squad",
+ "data_manifest": {
+  "squad_revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+  "n_pool": 87599,
+  "n_passages": 31094,
+  "data_seed": 2026,
+  "sizes": {
+   "train": 2000,
+   "val": 400,
+   "test": 600
+  },
+  "passage_words": 100
+ },
+ "split_sizes": {
+  "train": 2000,
+  "val": 400,
+  "test": 600
+ },
+ "corpus_size": 31094,
+ "decoding": {
+  "greedy": true,
+  "max_new_tokens": 32,
+  "prompt": "chat template, system + user, see prompt_example_k2.txt"
+ },
+ "k_options": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "reward": {
+  "form": "F1 + W_EM*EM - lambda*ctx_tokens/T_ref",
+  "W_EM": 0.5,
+  "lambda_main": 0.1,
+  "T_ref": 318.704
+ },
+ "ppo": {
+  "total_samples": 200000,
+  "rollout": 4096,
+  "epochs": 10,
+  "minibatch": 512,
+  "lr": 0.0003,
+  "clip": 0.2,
+  "ent": 0.01,
+  "vf": 0.5,
+  "eval_every": 2
+ },
+ "reinforce": {
+  "total_samples": 200000,
+  "batch": 512,
+  "lr": 0.0003,
+  "ent": 0.01,
+  "vf": 0.5,
+  "eval_every": 10
+ },
+ "supervised": {
+  "max_epochs": 300,
+  "lr": 0.001,
+  "batch": 256,
+  "wd": 0.0001,
+  "patience": 25
+ },
+ "policy_hidden": [
+  128,
+  128
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "checkpoint_selection": "best greedy validation reward",
+ "flare": {
+  "k": 2,
+  "mask_prob": 0.4,
+  "thetas": [
+   0.1,
+   0.2,
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9
+  ]
+ },
+ "skr": {
+  "k": 2,
+  "neighbors": [
+   5,
+   10,
+   20
+  ]
+ },
+ "stage_stats": {
+  "precompute_generation": {
+   "wall_s": 5470.071760177612,
+   "new_generations": 15000,
+   "peak_gpu_mb": 7911.3330078125
+  },
+  "latency_profiling": {
+   "wall_s": 1220.9148254394531
+  },
+  "policies_main": {
+   "wall_s": 180.14247822761536
+  },
+  "ablations": {
+   "wall_s": 984.3615663051605
+  },
+  "frontier": {
+   "wall_s": 696.6759827136993
+  },
+  "selfrag": {
+   "wall_s": 0.005017995834350586
+  }
+ },
+ "versions": {
+  "python": "3.12.13",
+  "torch": "2.10.0+cu128",
+  "transformers": "5.17.0",
+  "sentence_transformers": "6.1.0",
+  "datasets": "5.0.1",
+  "faiss": "1.15.1",
+  "bitsandbytes": "0.50.2",
+  "cuda": "12.8"
+ },
+ "gpu": "Tesla T4"
+}

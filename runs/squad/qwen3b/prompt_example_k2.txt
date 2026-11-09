@@ -1,0 +1,12 @@
+<|im_start|>system
+You are a question answering assistant. Answer with the shortest possible span (at most 5 words). Output only the answer, with no explanation.<|im_end|>
+<|im_start|>user
+Use the documents if they are helpful.
+
+Documents:
+[1] Nanjing: and the court of Song were once in the city. Song was eventually exterminated by the Mongol empire under the name Yuan and in Yuan dynasty the city's status as a hub of the textile industry was further consolidated.
+
+[2] Qing dynasty: The Qing dynasty (Chinese: 清朝; pinyin: Qīng Cháo; Wade–Giles: Ch'ing Ch'ao; IPA: [tɕʰíŋ tʂʰɑ̌ʊ̯]), officially the Great Qing (Chinese: 大清; pinyin: Dà Qīng), also called the Empire of the Great Qing, or the Manchu dynasty, was the last imperial dynasty of China, ruling from 1644 to 1912 with a brief, abortive restoration in 1917. It was preceded by the Ming dynasty and succeeded by the Republic of China. The Qing multi-cultural empire lasted almost three centuries and formed the territorial base for the modern Chinese state.
+
+Question: When did the Song dynasty take place?<|im_end|>
+<|im_start|>assistant

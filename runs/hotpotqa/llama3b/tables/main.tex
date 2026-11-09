@@ -1,0 +1,25 @@
+\begin{table}
+\caption{HOTPOTQA, llama3b: quality and end-to-end cost (mean $\pm$ SD over seeds).}
+\begin{tabular}{lllrll}
+\toprule
+ & f1 & em & k & total_tokens & latency_ms \\
+Method &  &  &  &  &  \\
+\midrule
+Static k=0 & 0.228 $\pm$ 0.000 & 0.088 $\pm$ 0.000 & 0.000 & 93 $\pm$ 0 & 264 $\pm$ 0 \\
+Static k=1 & 0.394 $\pm$ 0.000 & 0.203 $\pm$ 0.000 & 1.000 & 211 $\pm$ 0 & 347 $\pm$ 0 \\
+Static k=2 & 0.433 $\pm$ 0.000 & 0.242 $\pm$ 0.000 & 2.000 & 332 $\pm$ 0 & 405 $\pm$ 0 \\
+Static k=3 & 0.457 $\pm$ 0.000 & 0.272 $\pm$ 0.000 & 3.000 & 459 $\pm$ 0 & 483 $\pm$ 0 \\
+Static (val-best F1) & 0.457 $\pm$ 0.000 & 0.272 $\pm$ 0.000 & 3.000 & 459 $\pm$ 0 & 483 $\pm$ 0 \\
+Static (val-best reward) & 0.433 $\pm$ 0.000 & 0.242 $\pm$ 0.000 & 2.000 & 332 $\pm$ 0 & 405 $\pm$ 0 \\
+Random & 0.376 $\pm$ 0.010 & 0.200 $\pm$ 0.011 & 1.490 & 273 $\pm$ 9 & 372 $\pm$ 10 \\
+Uncertainty threshold & 0.436 $\pm$ 0.000 & 0.243 $\pm$ 0.000 & 1.877 & 406 $\pm$ 0 & 648 $\pm$ 0 \\
+FLARE (short-form) & 0.438 $\pm$ 0.000 & 0.248 $\pm$ 0.000 & 1.977 & 419 $\pm$ 0 & 661 $\pm$ 0 \\
+SKR-kNN & 0.297 $\pm$ 0.000 & 0.142 $\pm$ 0.000 & 0.643 & 166 $\pm$ 0 & 318 $\pm$ 0 \\
+Supervised k-predictor & 0.339 $\pm$ 0.005 & 0.169 $\pm$ 0.004 & 0.626 & 212 $\pm$ 8 & 435 $\pm$ 7 \\
+REINFORCE (bandit) & 0.440 $\pm$ 0.011 & 0.246 $\pm$ 0.012 & 2.280 & 462 $\pm$ 47 & 694 $\pm$ 29 \\
+RL-AR (PPO, bandit) & 0.437 $\pm$ 0.007 & 0.246 $\pm$ 0.008 & 1.870 & 408 $\pm$ 11 & 653 $\pm$ 10 \\
+RL-AR w/o draft (ret+query) & 0.435 $\pm$ 0.008 & 0.240 $\pm$ 0.009 & 1.939 & 328 $\pm$ 31 & 409 $\pm$ 15 \\
+Oracle (upper bound) & 0.562 $\pm$ 0.000 & 0.328 $\pm$ 0.000 & 0.765 & 181 $\pm$ 0 & 310 $\pm$ 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,18 @@
+﻿cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "RL-AR: Cost-Aware Reinforcement Learning for Adaptive Retrieval Depth in Retrieval-Augmented Generation"
+authors:
+  - family-names: Fayaz
+    given-names: Syed Muntasin
+  - family-names: Shamrat
+    given-names: F M Javed Mehedi
+  - family-names: Far
+    given-names: Arman
+  - family-names: Raihan
+    given-names: Md. Abu
+  - family-names: Ali
+    given-names: Md. Asraf
+  - family-names: Mohamed
+    given-names: Reem E.
+repository-code: "https://github.com/SMFRafin/RL-AR"
+license: MIT

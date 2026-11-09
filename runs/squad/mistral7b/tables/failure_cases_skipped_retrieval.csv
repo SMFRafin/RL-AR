@@ -1,0 +1,3 @@
+question,gold,chosen_k,ans_k0,ans_k1,ans_k2,ans_k3,f1_k0,f1_k1,f1_k2,f1_k3
+Which ideologies did the Soviet Union aspire to lead around the globe?,socialism and communism,0,Communist ideology,Global socialism and communism,Global socialist movement,Global socialist movement,0.0,0.86,0.0,0.0
+Which account of scientific method did Popper's repudiate?,the classical observationalist-inductivist account,0,Inductive method,Classical observationalist-inductivist account,Classical observationalist-inductivist account,Classical observationalist-inductivist account,0.0,1.0,1.0,1.0

@@ -1,0 +1,5 @@
+question,gold,chosen_k,ans_k0,ans_k1,ans_k2,ans_k3,f1_k0,f1_k1,f1_k2,f1_k3
+"Luisa Miller is an opera with three acts, whereas Don Quichotte is an opera with how many acts?",five,0,two,Don Quichotte has four acts,five,Don Quichotte has five acts,0.0,0.0,1.0,0.33
+Of the two genuses Gaillardia and Browningia which one is a genus of cacti?,Browningia,0,Gaillardia,Browningia,Browningia,Browningia,0.0,1.0,1.0,1.0
+Are Ash Lieb and Elswyth Thane both artists?,no,0,Yes,No,No,No,0.0,1.0,1.0,1.0
+Double Jeopardy is a 1999 film starring an American political activist best known for an ongoing acting career spanning how long?,more than two decades,0,40 years,26 years,26 years,Over two decades,0.0,0.0,0.0,0.57

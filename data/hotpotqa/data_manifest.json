@@ -1,0 +1,15 @@
+{
+ "hotpot_source": "hotpotqa/hotpot_qa (distractor, validation)",
+ "hotpot_revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+ "paragraph_text_conflicts": 61,
+ "unit": "paragraph (title-level)",
+ "n_pool": 7405,
+ "n_passages": 66581,
+ "data_seed": 2026,
+ "sizes": {
+  "train": 2000,
+  "val": 400,
+  "test": 600
+ },
+ "passage_words": 100
+}
